@@ -14,7 +14,7 @@ To run this project locally, follow the steps below:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/ElPitagoras14/utils-features.git
    ```
 
 2. Install dependencies:
@@ -68,7 +68,7 @@ This app is meant for local experimentation. You can use it as a reference to ex
 - The following variables must have the same values in both the frontend and backend to ensure proper functionality: `AUTH_SECRET`, `AUTH_ALGORITHM`, and `AUTH_EXPIRE_MINUTES`.
 
 > [!IMPORTANT]
-> If you perform a login using a server component and then navigate to a client page, you must manually reload the page (in server components, it works normally). This issue does not occur when using a client-side login component.
+> If you perform a login using a server component and then navigate to a client page, you must manually reload the page to be authenticated (in server components, it works normally). This issue does not occur when using a client-side login component.
 
 ### Sign In
 
@@ -90,6 +90,7 @@ This app is meant for local experimentation. You can use it as a reference to ex
 ## Roadmap
 
 [x] Authentication through Auth.js
+
 [ ] Rate limiting
 
 ## Author
